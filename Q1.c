@@ -1,31 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
-int marks;
-// //write a program to give grades to a students 
-// marks <30 is c 
-// 30<=marks<70 is b 
-// 70<=marks<90 is a 
-// 90<= marks <100 is a+ 
+    int num1, num2, sum;
 
-printf("enter a number : ");
-scanf("%d" , &marks);
+    // Taking input from the user
+    printf("Enter first number: ");
+    scanf("%d", &num1);
 
-if(marks < 30){
-    printf("c\n");
-}
-else if (marks >= 30 && marks <= 70 ){
-    printf("b\n");
-}
-else if (marks >= 70 && marks < 90 ){
-    printf("a\n");
-}
-else if (marks >=90 && marks < 100 ){
-    printf("a+\n");
-}
-return 0;
-}
+    printf("Enter second number: ");
+    scanf("%d", &num2);
 
+    // Calculating sum
+    sum = num1 + num2;
 
+    // Displaying result
+    printf("Sum = %d\n", sum);
+
+    return 0;
 
 
 
