@@ -1,0 +1,10 @@
+g
+fg
+fg
+g
+f
+g
+gf
+g
+gf
+g
